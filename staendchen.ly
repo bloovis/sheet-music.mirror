@@ -523,7 +523,7 @@ iv = \context Staff \relative c \new Voice {
   \stemUp d,8-.\noBeam \stemDown <a' d>-. <d fs>-. <a d>-. <d fs>-. <a d>-. |
   \stemUp d,8-.\noBeam \stemDown <a' d>-.^\markup { \italic smorz. } <d fs>-. <a d>-. <d fs>-. <a d>-. |
   % Measures 113-115
-  \stemUp \tuplet 3/2 { d,4^\ppp( a'8 } \tuplet 3/2 { d a' d }
+  \stemUp \tuplet 3/2 { d,4^\markup { "  " \dynamic ppp } ( a'8 } \tuplet 3/2 { d a' d }
     \clef treble \tuplet 3/2 { a' d a } \clef bass |
   \tuplet 3/2 { d, a d, } \tuplet 3/2 { a d, a' } d, a') |
   <d, a' d>2.\arpeggio |
