@@ -289,7 +289,7 @@ ii = \context Staff \relative c \new Voice {
   s8_\markup { \italic { con agitazione } } <cs,, e> s <e g> s g |
   <g e>8 <g e>4 <g e>4 <e g,>8 |
   % Measures 93-96
-  <d e>8\noBeam d^([-> cs)] s4. |
+  <d e>8\noBeam <<{ \stemDown d8^([_> cs8)]} \\ { \stemUp e4 \stemDown }>> s4. |
   s8 \clef bass <g e>8 <g e> <g e> a <g e> |
   \clef treble <fs' cs'>2 <e fs>4 |
   s2. |
@@ -370,7 +370,7 @@ iii = \context Staff \relative c \new Voice {
   s2. |
   % Measures 105-108
   s2. |
-  s4 r2 |
+  s4 e'2\rest |
   s2. |
   s2. |
   % Measures 109-112
@@ -529,13 +529,6 @@ iv = \context Staff \relative c \new Voice {
   <d, a' d>2.\arpeggio |
 }
 
-v = \context Staff \relative c \new Voice {
-  \voiceThree
-  \repeat unfold 92 { s2. }
-  % Measure 93 - need this fifth voice for just one note!
-  s8 e'4 s4. |
-}
-
 \score {
   \context PianoStaff <<
     \set PianoStaff.connectArpeggios = ##t
@@ -544,7 +537,6 @@ v = \context Staff \relative c \new Voice {
       \clef treble
       \i
       \ii
-      \v
     >>
     \new Staff = "bass" \with { \consists "Span_arpeggio_engraver" }  <<
       \global
