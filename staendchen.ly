@@ -93,7 +93,7 @@ i = \context Staff \relative c' \new Voice {
   \clef bass \stemDown a,8.( cs16 f4.->) e8 |
   % Measures 57-60
   d8.( a16 fs4.->) d8 |
-  \grace { b'16( cs } \tuplet 3/2 { b8) as b } d4.->( b8 |
+  \stemUp \grace { b'16( cs } \stemDown \tuplet 3/2 { b8) as b } d4.->( b8 |
   a2.) |
   \clef treble \tuplet 3/2 { <g' e' g>8_\f <fs ds' fs> <g e' g> } <b g' b>4.( <g cs g'>8 |
   % Measures 61-64
@@ -187,7 +187,7 @@ i = \context Staff \relative c' \new Voice {
     r8 s8 \grace { d,,16( e bf' d~ e~ } <d e bf'>2) |
   % Measures 105-108
   r8 s8 \grace { cs,16( e a~ cs~ e~ } <a, cs e a>2~) |
-  \noBreak \stemDown <a cs e a>8 s2
+  \stemDown <a cs e a>8 s2	% tried \noBreak here, but makes pageturn harder
     \grace {
       gs'32_\markup { \italic dolciss. }
       a as b bs cs d ds e es fs
@@ -237,7 +237,7 @@ ii = \context Staff \relative c \new Voice {
   % Measures 17-20
   r8 cs-. a'-. cs,-. a'-. cs,-. |
   r d f a, s a |
-  r d-. f-. d-. f-. d-. |
+  r\pp d-. f-. d-. f-. d-. |
   r <c a>-. <c f>-. <c a>-. <c f>-. <c a>-. |
   % Measures 21-24
   \tuplet 3/2 {bf' a bf} d4. bf8 |
@@ -290,7 +290,7 @@ ii = \context Staff \relative c \new Voice {
   <g e>8 <g e>4 <g e>4 <e g,>8 |
   % Measures 93-96
   <d e>8\noBeam <<{ \stemDown d8^([_> cs8)]} \\ { \stemUp e4 \stemDown }>> s4. |
-  s8 \clef bass <g e>8 <g e> <g e> a <g e> |
+  s8 \clef bass <g, e>8 <g e> <g e> g <g e> |
   \clef treble <fs' cs'>2 <e fs>4 |
   s2. |
   % Measures 97-100
@@ -323,7 +323,7 @@ iii = \context Staff \relative c \new Voice {
   s2. | s | s | s |
   % Measures 5-8
   a'8\rest <f a>-. <a d>-. <f a>-. <a d>-. <f a>-. |
-  a\rest <e g>-. <g d>-. <e g>-. <g d>-. <e g>-. |
+  a\rest <e g>-. <g d'>-. <e g>-. <g d'>-. <e g>-. |
   a\rest <e g>-. <g a>-. <e g>-. <g a e'>-. <e g cs>-. |
   a\rest f-. a-. f-. a-. f-. |
   % Measures 9-12
