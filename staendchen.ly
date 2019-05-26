@@ -187,7 +187,7 @@ i = \context Staff \relative c' \new Voice {
     r8 s8 \grace { d,,16( e bf' d~ e~ } <d e bf'>2) |
   % Measures 105-108
   r8 s8 \grace { cs,16( e a~ cs~ e~ } <a, cs e a>2~) |
-  \stemDown <a cs e a>8 s2
+  \noBreak \stemDown <a cs e a>8 s2
     \grace {
       gs'32_\markup { \italic dolciss. }
       a as b bs cs d ds e es fs
