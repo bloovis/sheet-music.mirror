@@ -329,7 +329,7 @@ iii = \context Staff \relative c \new Voice {
   % Measures 9-12
   s2. |
   s2. |
-  b8\rest <f a>-. <a d>-. <f a>-. <a d>-. <f a>-. |
+  b8\rest <a d>-. <d f>-. <a d>-. <d f>-. <a d>-. |
   b\rest <g d'>-. <d' e>-. <g, d'>-. <d' e>-. <g, d'>-. |
   % Measures 13-16
   a\rest <g bf>-. <bf c>-. <g bf>-. <bf c g'>-. <g bf e>-. |
@@ -453,7 +453,7 @@ iv = \context Staff \relative c \new Voice {
   \stemUp <a, a,>8\noBeam \stemDown <cs g' a>-. <g' a cs>-. <cs, g' a>-. <g' a cs>-. <cs, g' a>-. |
   % Measures 57-60
   \stemUp <d d,>8\noBeam \stemDown <d fs>-. <a' d>-. <a d,>-. <a d>-. <a fs>-. |
-  \stemUp <g, g,>8\noBeam \stemDown <g' d'>-. <b g'>-. <g a>-. <b g'>-. <g b>-. |
+  \stemUp <g, g,>8\noBeam \stemDown <g' d'>-. <b g'>-. <g b>-. <b g'>-. <g b>-. |
   \stemUp <d d,>8\noBeam \stemDown <fs d'>-. <d' fs>-. <d fs,>-. <a d fs>-. <fs a d>-. |
   \stemUp <a, a,>8\noBeam \stemDown <e' a cs>-. <a cs g'>-. <e a cs>-. <a cs g'>-. <e a cs>-. |
   % Measures 61-64
