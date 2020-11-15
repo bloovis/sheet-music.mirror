@@ -457,7 +457,7 @@ iv = \context Staff \relative c \new Voice {
   \stemUp <d d,>8\noBeam \stemDown <fs d'>-. <d' fs>-. <d fs,>-. <a d fs>-. <fs a d>-. |
   \stemUp <a, a,>8\noBeam \stemDown <e' a cs>-. <a cs g'>-. <e a cs>-. <a cs g'>-. <e a cs>-. |
   % Measures 61-64
-  \stemUp d,8\noBeam \stemDown <d' fs a>-. <fs a d>-. <d fs a>-. <fs a d>-. <e fs a>-. |
+  \stemUp d,8\noBeam \stemDown <d' fs a>-. <fs a d>-. <d fs a>-. <fs a d>-. <d fs a>-. |
   \stemUp d,8-.\noBeam \stemDown <d' g bf>-. <g bf d>-. <d g bf>-. <g bf d>-. <d g bf>-. |
   \stemUp d,8-.\noBeam \stemDown <d' fs a>-. <fs a d>-. <d fs a>-. <fs a d>-. <d fs a>-. |
   \stemUp <a a,>8-.\noBeam \stemDown <e' a>-. <a cs>-. <e a>-. <a cs>-. <e a>-. |
