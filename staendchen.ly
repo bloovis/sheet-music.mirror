@@ -423,7 +423,7 @@ iv = \context Staff \relative c \new Voice {
   \stemUp d,8\noBeam \stemDown <d' g b >-. <g b d>-. <d g b>-. <g b d>-. <d g b>-. |
   \stemUp d,8\noBeam \stemDown <d' fs a>-. <fs a d>-. <d fs a>-. <fs a d>-. <d fs a>-. |
   \stemUp <a a,>8\noBeam \stemDown <e' a>-. <a cs>-. <e a>-. <a cs>-. <e a>-. |
-  \stemUp d,8\noBeam \stemDown <fs' a>-. <a d>-. <fs a>-. <fs a d>-. <d fs a>-. |
+  \stemUp d,8\noBeam \stemDown <fs' a>-. <a d>-. <fs a>-. <a d>-. <fs a>-. |
   % Measures 37-40
   \stemUp d,8\noBeam \stemDown <fs' a>-. <a d>-. <fs a>-. <a d>-. <fs a>-. |
   \stemUp d,8\noBeam^\markup { \italic { \bold mp quasi Violoncello } }
