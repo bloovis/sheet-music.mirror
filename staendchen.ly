@@ -24,7 +24,7 @@ i = \context Staff \relative c' \new Voice {
   % Measures 5-8
   \dynamicUp
   \tuplet 3/2 {a'8\mp bf^\markup { \italic { espressivo il canto } } a} d4.->( a8) |
-  \tuplet 3/2 {a8 bf a} d4.->( a8) |
+  \tuplet 3/2 {a8 bf a} d4.->( g,8) |
   a4.->( g8) \tuplet 3/2 {g8 f e} |
   f2.
   % Measures 9-12
@@ -389,33 +389,33 @@ iv = \context Staff \relative c \new Voice {
   <a a'> |
   <d d'> |
   % Measures 9-12
-  \stemUp <a a'>8\noBeam\arpeggio \stemDown <a'' cs e>-. <cs e g>-. <a cs e>-. <cs e g>-. <a cs e>-. |
-  \stemUp <d, d,>8\noBeam\arpeggio  \stemDown <a' d>-. <d f>-. <a d>-. <d f>-. <a d>-. |
+  \stemUp <a a'>8\noBeam\arpeggio \stemDown <a'' cs e>^. <cs e g>^. <a cs e>^. <cs e g>^. <a cs e>^. |
+  \stemUp <d, d,>8\noBeam\arpeggio  \stemDown <a' d>^. <d f>^. <a d>^. <d f>^. <a d>^. |
   <d,, d'>2. |
   <bf bf'> |
   % Measures 13-16
   <c c'> |
   <f, f'>2 r4 |
-  \stemUp c'8\noBeam \stemDown <g'' c,>-. <g bf>-. <g c,>-. <g bf>-. <g c,>-. |
-  \stemUp f,8\noBeam \stemDown <f' c>-. <f a>-. <f c>-. <f a>-. <f c>-. |
+  \stemUp c'8\noBeam \stemDown <g'' c,>^. <g bf>^. <g c,>^. <g bf>^. <g c,>^. |
+  \stemUp f,8\noBeam \stemDown <f' c>^. <f a>^. <f c>^. <f a>^. <f c>^. |
   % Measures 17-20
   <a,, a'>2. |
   <d d'> |
   <bf bf'> |
   <f f'> |
   % Measures 21-24
-  \stemUp <c' c'>8\noBeam \stemDown <c'' g>-. <c e>-. <c g>-. <c e>-. <c g>-. |
-  \stemUp <f,, f,>8\noBeam \stemDown <c'' a f>-. <c a f'>-. <c a f>-. <c a f'>-. <c a f>-. |
+  \stemUp <c' c'>8\noBeam \stemDown <c'' g>^. <c e>^. <c g>^. <c e>^. <c g>^. |
+  \stemUp <f,, f,>8\noBeam \stemDown <c'' a f>^. <c a f'>^. <c a f>^. <c a f'>^. <c a f>^. |
   <a,, a'>2. |
   <d d'> |
   % Measures 25-28
   <g g,> |
   <d' d,> |
-  \stemUp <a a,>8\noBeam \stemDown <a' cs e,>-. <a cs g'>-. <a cs e,>-. <a cs g'>-. <a cs e,>-. |
-  \stemUp d,,8\noBeam \stemDown <d' fs a >-. <fs a d>-. <d fs a>-. <fs a d>-. <d fs a>-. |
+  \stemUp <a a,>8\noBeam \stemDown <a' cs e,>^. <a cs g'>^. <a cs e,>^. <a cs g'>^. <a cs e,>^. |
+  \stemUp d,,8\noBeam \stemDown <d' fs a >^. <fs a d>^. <d fs a>^. <fs a d>^. <d fs a>^. |
   % Measures 29-32
   \stemUp d,8\noBeam-\markup { \italic { col Ped. sempre } }
-    \stemDown <d' g bf >-. <g bf d>-. <d g bf>-. <g bf d>-. <d g bf>-. |
+    \stemDown <d' g bf >^. <g bf d>^. <d g bf>^. <g bf d>^. <d g bf>^. |
   \stemUp d,8\noBeam \stemDown <d' fs a>-. <fs a d>-. <d fs a>-. <fs a d>-. <d fs a>-. |
   \stemUp <a a,>8\noBeam \stemDown <e' a>-. <a cs>-. <e a>-. <a cs>-. <e a>-. |
   \stemUp d,8\noBeam \stemDown <d' fs a>-. <fs a d>-. <d fs a>-. <fs a d>-. <d fs a>-. |
