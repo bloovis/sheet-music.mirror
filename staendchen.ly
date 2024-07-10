@@ -416,112 +416,112 @@ iv = \context Staff \relative c \new Voice {
   % Measures 29-32
   \stemUp d,8\noBeam-\markup { \italic { col Ped. sempre } }
     \stemDown <d' g bf >^. <g bf d>^. <d g bf>^. <g bf d>^. <d g bf>^. |
-  \stemUp d,8\noBeam \stemDown <d' fs a>-. <fs a d>-. <d fs a>-. <fs a d>-. <d fs a>-. |
-  \stemUp <a a,>8\noBeam \stemDown <e' a>-. <a cs>-. <e a>-. <a cs>-. <e a>-. |
-  \stemUp d,8\noBeam \stemDown <d' fs a>-. <fs a d>-. <d fs a>-. <fs a d>-. <d fs a>-. |
+  \stemUp d,8\noBeam \stemDown <d' fs a>^. <fs a d>^. <d fs a>^. <fs a d>^. <d fs a>^. |
+  \stemUp <a a,>8\noBeam \stemDown <e' a>^. <a cs>^. <e a>^. <a cs>^. <e a>^. |
+  \stemUp d,8\noBeam \stemDown <d' fs a>^. <fs a d>^. <d fs a>^. <fs a d>^. <d fs a>^. |
   % Measures 33-36
-  \stemUp d,8\noBeam \stemDown <d' g b >-. <g b d>-. <d g b>-. <g b d>-. <d g b>-. |
-  \stemUp d,8\noBeam \stemDown <d' fs a>-. <fs a d>-. <d fs a>-. <fs a d>-. <d fs a>-. |
-  \stemUp <a a,>8\noBeam \stemDown <e' a>-. <a cs>-. <e a>-. <a cs>-. <e a>-. |
-  \stemUp d,8\noBeam \stemDown <fs' a>-. <a d>-. <fs a>-. <a d>-. <fs a>-. |
+  \stemUp d,8\noBeam \stemDown <d' g b >^. <g b d>^. <d g b>^. <g b d>^. <d g b>^. |
+  \stemUp d,8\noBeam \stemDown <d' fs a>^. <fs a d>^. <d fs a>^. <fs a d>^. <d fs a>^. |
+  \stemUp <a a,>8\noBeam \stemDown <e' a>^. <a cs>^. <e a>^. <a cs>^. <e a>^. |
+  \stemUp d,8\noBeam \stemDown <fs' a>^. <a d>^. <fs a>^. <a d>^. <fs a>^. |
   % Measures 37-40
-  \stemUp d,8\noBeam \stemDown <fs' a>-. <a d>-. <fs a>-. <a d>-. <fs a>-. |
+  \stemUp d,8\noBeam \stemDown <fs' a>^. <a d>^. <fs a>^. <a d>^. <fs a>^. |
   \stemUp d,8\noBeam^\markup { \italic { \bold mp quasi Violoncello } }
-    \stemDown f'-._\markup  { \italic sempre \dynamic pp \italic { gli accompagnamenti } }
-    f'-. <f, a>-. <f' d>-. f,-. |
-  \stemUp bf,8\noBeam \stemDown e-. e'-. <e, g>-. <e' d>-. e,-. |
-  \stemUp a,8\noBeam \stemDown <cs' e,>-. <cs e>-. <cs e,>-. <cs e a,>-. <cs a g>-. |
+    \stemDown f'^._\markup  { \italic sempre \dynamic pp \italic { gli accompagnamenti } }
+    f'^. <f, a>^. <f' d>^. f,^. |
+  \stemUp bf,8\noBeam \stemDown e^. e'^. <e, g>^. <e' d>^. e,^. |
+  \stemUp a,8\noBeam \stemDown <cs' e,>^. <cs e>^. <cs e,>^. <cs e a,>^. <cs a g>^. |
   % Measures 41-44
-  \stemUp d,,8\noBeam \stemDown <a'' d>-. <a d f>-. <f a d>-. <a d f>-. <f a d>-. |
-  \stemUp <a, a,>8\noBeam\arpeggio \stemDown <a' cs e>-. <cs e g>-. <a cs e>-. <cs e g>-. <a cs e>-. |
-  \stemUp <d, d,>8\noBeam \stemDown <f a d>-. <a d f>-. <f a d>-. <a d f>-. <f a d>-. |
-  \stemUp d8\noBeam \stemDown f-. f'-. <f, a>-. <f' d>-. f,-. |
+  \stemUp d,,8\noBeam \stemDown <a'' d>^. <a d f>^. <f a d>^. <a d f>^. <f a d>^. |
+  \stemUp <a, a,>8\noBeam\arpeggio \stemDown <a' cs e>^. <cs e g>^. <a cs e>^. <cs e g>^. <a cs e>^. |
+  \stemUp <d, d,>8\noBeam \stemDown <f a d>^. <a d f>^. <f a d>^. <a d f>^. <f a d>^. |
+  \stemUp d8\noBeam \stemDown f^. f'^. <f, a>^. <f' d>^. f,^. |
   % Measures 45-48
-  \stemUp bf,8\noBeam \stemDown e-. d'-. <e, g>-. <d' e>-. <e, g>-. |
-  \stemUp c8\noBeam \stemDown <e g>-. <g e'>-. <e g>-. <g e'>-. <e bf' c>-. |
-  \stemUp f,8\noBeam \stemDown <f' a c>-. <a c f>-. <f a c>-. <a c f>-. <af b>-.( |
-  \stemUp c,,8)\noBeam \stemDown <c' g'>-. <g' bf>-. <c, g'>-. <g' bf>-. <c, g'>-. |
+  \stemUp bf,8\noBeam \stemDown e^. d'^. <e, g>^. <d' e>^. <e, g>^. |
+  \stemUp c8\noBeam \stemDown <e g>^. <g e'>^. <e g>^. <g e'>^. <e bf' c>^. |
+  \stemUp f,8\noBeam \stemDown <f' a c>^. <a c f>^. <f a c>^. <a c f>^. <af b>^.( |
+  \stemUp c,,8)\noBeam \stemDown <c' g'>^. <g' bf>^. <c, g'>^. <g' bf>^. <c, g'>^. |
   % Measures 49-52
-  \stemUp f,8\noBeam \stemDown <c' f>-. <f a>-. <c f>-. <f a>-. <c f>-. |
-  \stemUp a8\noBeam^\< \stemDown <cs g' a>-. <g' a cs>-.\! <cs, g' a>-.^\> <g' a cs>-. <cs, g' a>-.\! |
-  \stemUp d,8\noBeam \stemDown <d' f>-. <a' d>-. <a d,>-. <a d>-. <a f>-. |
-  \stemUp bf,,8\noBeam \stemDown <f'' d'>-. <bf f'>-. <f d'>-. <bf f'>-. <f d'>-. |
+  \stemUp f,8\noBeam \stemDown <c' f>^. <f a>^. <c f>^. <f a>^. <c f>^. |
+  \stemUp a8\noBeam^\< \stemDown <cs g' a>^. <g' a cs>^.\! <cs, g' a>^.^\> <g' a cs>^. <cs, g' a>^.\! |
+  \stemUp d,8\noBeam \stemDown <d' f>^. <a' d>^. <a d,>^. <a d>^. <a f>^. |
+  \stemUp bf,,8\noBeam \stemDown <f'' d'>^. <bf f'>^. <f d'>^. <bf f'>^. <f d'>^. |
   % Measures 53-56
-  \stemUp f,8\noBeam \stemDown <f' a c>-. <a c f>-. <f a c>-. <a c f>-. <f a c>-. |
-  \stemUp <c c,>8\noBeam^\< \stemDown <e c'>-. <g e'>-.\! <e c'>-.^\> <g e'>-. <e c'>-.\! |
-  \stemUp <f, f,>8\noBeam \stemDown <f' a c>-. <a c f>-. <f a c>-. <a c f>-. <f a c>-. |
-  \stemUp <a, a,>8\noBeam \stemDown <cs g' a>-. <g' a cs>-. <cs, g' a>-. <g' a cs>-. <cs, g' a>-. |
+  \stemUp f,8\noBeam \stemDown <f' a c>^. <a c f>^. <f a c>^. <a c f>^. <f a c>^. |
+  \stemUp <c c,>8\noBeam^\< \stemDown <e c'>^. <g e'>^.\! <e c'>^.^\> <g e'>^. <e c'>^.\! |
+  \stemUp <f, f,>8\noBeam \stemDown <f' a c>^. <a c f>^. <f a c>^. <a c f>^. <f a c>^. |
+  \stemUp <a, a,>8\noBeam \stemDown <cs g' a>^. <g' a cs>^. <cs, g' a>^. <g' a cs>^. <cs, g' a>^. |
   % Measures 57-60
-  \stemUp <d d,>8\noBeam \stemDown <d fs>-. <a' d>-. <a d,>-. <a d>-. <a fs>-. |
-  \stemUp <g, g,>8\noBeam \stemDown <g' d'>-. <b g'>-. <g b>-. <b g'>-. <g b>-. |
-  \stemUp <d d,>8\noBeam \stemDown <fs d'>-. <d' fs>-. <d fs,>-. <a d fs>-. <fs a d>-. |
-  \stemUp <a, a,>8\noBeam \stemDown <e' a cs>-. <a cs g'>-. <e a cs>-. <a cs g'>-. <e a cs>-. |
+  \stemUp <d d,>8\noBeam \stemDown <d fs>^. <a' d>^. <a d,>^. <a d>^. <a fs>^. |
+  \stemUp <g, g,>8\noBeam \stemDown <g' d'>^. <b g'>^. <g b>^. <b g'>^. <g b>^. |
+  \stemUp <d d,>8\noBeam \stemDown <fs d'>^. <d' fs>^. <d fs,>^. <a d fs>^. <fs a d>^. |
+  \stemUp <a, a,>8\noBeam \stemDown <e' a cs>^. <a cs g'>^. <e a cs>^. <a cs g'>^. <e a cs>^. |
   % Measures 61-64
-  \stemUp d,8\noBeam \stemDown <d' fs a>-. <fs a d>-. <d fs a>-. <fs a d>-. <d fs a>-. |
-  \stemUp d,8-.\noBeam \stemDown <d' g bf>-. <g bf d>-. <d g bf>-. <g bf d>-. <d g bf>-. |
-  \stemUp d,8-.\noBeam \stemDown <d' fs a>-. <fs a d>-. <d fs a>-. <fs a d>-. <d fs a>-. |
-  \stemUp <a a,>8-.\noBeam \stemDown <e' a>-. <a cs>-. <e a>-. <a cs>-. <e a>-. |
+  \stemUp d,8\noBeam \stemDown <d' fs a>^. <fs a d>^. <d fs a>^. <fs a d>^. <d fs a>^. |
+  \stemUp d,8-.\noBeam \stemDown <d' g bf>^. <g bf d>^. <d g bf>^. <g bf d>^. <d g bf>^. |
+  \stemUp d,8-.\noBeam \stemDown <d' fs a>^. <fs a d>^. <d fs a>^. <fs a d>^. <d fs a>^. |
+  \stemUp <a a,>8-.\noBeam \stemDown <e' a>^. <a cs>^. <e a>^. <a cs>^. <e a>^. |
   % Measures 65-68
-  \stemUp d,8-.\noBeam \stemDown <d' fs a>-. <fs a d>-. <d fs a>-. <fs a d>-. <d fs a>-. |
-  \stemUp d,8-.\noBeam \stemDown <d' g b>-. <g b d>-. <d g b>-. <g b d>-. <d g b>-. |
-  \stemUp d,8-.\noBeam \stemDown <d' fs a>-. <fs a d>-. <d fs a>-. <fs a d>-. <d fs a>-. |
-  \stemUp <a a,>8-.\noBeam \stemDown <e' a>-. <a cs>-. <e a>-. <a cs>-. <e a>-. |
+  \stemUp d,8-.\noBeam \stemDown <d' fs a>^. <fs a d>^. <d fs a>^. <fs a d>^. <d fs a>^. |
+  \stemUp d,8-.\noBeam \stemDown <d' g b>^. <g b d>^. <d g b>^. <g b d>^. <d g b>^. |
+  \stemUp d,8-.\noBeam \stemDown <d' fs a>^. <fs a d>^. <d fs a>^. <fs a d>^. <d fs a>^. |
+  \stemUp <a a,>8-.\noBeam \stemDown <e' a>^. <a cs>^. <e a>^. <a cs>^. <e a>^. |
   % Measures 69-72
-  \stemUp d,8-.\noBeam \stemDown <fs' a>-. <a d>-.^\markup { \italic rall. } <fs a>-. <a d>-. <fs a>-. |
-  \stemUp d,8-.\noBeam \stemDown <fs' a>-. <a d>-.^\markup { \italic smorz. } <fs a>-. <a d>-. <fs a>-. |
+  \stemUp d,8-.\noBeam \stemDown <fs' a>^. <a d>^.^\markup { \italic rall. } <fs a>^. <a d>^. <fs a>^. |
+  \stemUp d,8-.\noBeam \stemDown <fs' a>^. <a d>^.^\markup { \italic smorz. } <fs a>^. <a d>^. <fs a>^. |
   \stemUp d8-.\noBeam \stemDown
-    <a' d>-._\markup { \italic sempre \dynamic p \italic { e stacc. } } <d f>-. <a d>-. <d f>-. <a d>-. |
-  \stemUp bf,8-.\noBeam \stemDown <g' d'>-. <d' e>-. <g, d'>-. <d' e>-. <g, d'>-. |
+    <a' d>^._\markup { \italic sempre \dynamic p \italic { e stacc. } } <d f>^. <a d>^. <d f>^. <a d>^. |
+  \stemUp bf,8-.\noBeam \stemDown <g' d'>^. <d' e>^. <g, d'>^. <d' e>^. <g, d'>^. |
   % Measures 73-76
-  \stemUp a,8-.\noBeam \stemDown <e' a cs>-. <a cs e>-. <e a cs>-. <a cs e>-.^\> <g a cs>-.\! |
-  \stemUp d,8-.\noBeam \stemDown <f' a>-. <a d>-. <f a>-. <a d>-. <f a>-. |
-  \stemUp d8-.\noBeam \stemDown <a' d>-. <d f>-. <a d>-. <d f>-. <a d>-. |
-  \stemUp bf,8-.\noBeam \stemDown <g' d'>-. <d' e>-. <g, d'>-. <d' e>-. <g, d'>-. |
+  \stemUp a,8-.\noBeam \stemDown <e' a cs>^. <a cs e>^. <e a cs>^. <a cs e>^.^\> <g a cs>^.\! |
+  \stemUp d,8-.\noBeam \stemDown <f' a>^. <a d>^. <f a>^. <a d>^. <f a>^. |
+  \stemUp d8-.\noBeam \stemDown <a' d>^. <d f>^. <a d>^. <d f>^. <a d>^. |
+  \stemUp bf,8-.\noBeam \stemDown <g' d'>^. <d' e>^. <g, d'>^. <d' e>^. <g, d'>^. |
   % Measures 77-80
-  \stemUp c,8-.\noBeam \stemDown <g' bf c>-. <bf c e>-. <g bf c>-. <bf c e>-.^\> <g bf c>-.\! |
-  \stemUp f,8-.\noBeam \stemDown <f' a c>-. <a c f>-. <f a c>-. <a c f>-. <f a c>-. |
+  \stemUp c,8-.\noBeam \stemDown <g' bf c>^. <bf c e>^. <g bf c>^. <bf c e>^.^\> <g bf c>^.\! |
+  \stemUp f,8-.\noBeam \stemDown <f' a c>^. <a c f>^. <f a c>^. <a c f>^. <f a c>^. |
   \stemUp a,8-.\noBeam \clef treble <a' cs g'>-. <cs g' a>-. <a cs g'>-. <cs g' a>-. <a cs g'>-. |
   \clef bass \stemDown d,8-.\noBeam <a' d>-. d-. <a d>-. <d f>-. <a f>-. |
   % Measures 81-84
-  \stemUp bf,8-.^\<\noBeam \stemDown <f' bf d>-. <bf d f>-. <f bf d>-. <bf d f>-. <f bf d>-.\! |
-  \stemUp f,8-.\noBeam \stemDown <f' a c>-. <a c f>-. <f a c>-. <a c f>-. <f a c>-. |
-  \stemUp <c, c'>8-.^\<\noBeam \stemDown <e' g c>-. <g c e>-. <e g c>-. <g c e>-. <e g c>-.\! |
-  \stemUp f,8-.\noBeam \stemDown <f' a c>-. <a c f>-. <f a c>-. <a c f>-. <f a c>-. |
+  \stemUp bf,8-.^\<\noBeam \stemDown <f' bf d>^. <bf d f>^. <f bf d>^. <bf d f>^. <f bf d>^.\! |
+  \stemUp f,8-.\noBeam \stemDown <f' a c>^. <a c f>^. <f a c>^. <a c f>^. <f a c>^. |
+  \stemUp <c, c'>8-.^\<\noBeam \stemDown <e' g c>^. <g c e>^. <e g c>^. <g c e>^. <e g c>^.\! |
+  \stemUp f,8-.\noBeam \stemDown <f' a c>^. <a c f>^. <f a c>^. <a c f>^. <f a c>^. |
   % Measures 85-88
   \stemUp a,8-.\noBeam \clef treble <a' cs g'>-. <cs g' a>-. <a cs g'>-. <cs g' a>-. <a cs g'>-. |
   \clef bass \stemDown d,8-.\noBeam <a' d>-. d-. <a d>-. <d fs>-. <a fs>-. |
-  \stemUp g,8-.\noBeam \stemDown <g' b d>-. <b d g>-. <g b d>-. <b d g>-. <g b d>-. |
-  \stemUp d,8-.\noBeam \stemDown <fs' a d>-. <a d fs>-. <fs a d>-. <a d fs>-. <fs a d>-. |
+  \stemUp g,8-.\noBeam \stemDown <g' b d>^. <b d g>^. <g b d>^. <b d g>^. <g b d>^. |
+  \stemUp d,8-.\noBeam \stemDown <fs' a d>^. <a d fs>^. <fs a d>^. <a d fs>^. <fs a d>^. |
   % Measures 89-92
-  \stemUp <a, a,>8-.\noBeam \stemDown <e' a cs>-. <a cs g'>-. <e a cs>-. <a cs g'>-. <e a cs>-. |
-  \stemUp <d d,>8-.\noBeam \stemDown <fs a d>-. <a d fs>-. <fs a d>-. <a d fs>-. <fs a d>-. |
-  \stemUp <a, a,>8-.\noBeam \stemDown <cs e g>-. <a cs e>-. <a cs e g>-. <bf cs e>-. <cs e g>-. |
+  \stemUp <a, a,>8-.\noBeam \stemDown <e' a cs>^. <a cs g'>^. <e a cs>^. <a cs g'>^. <e a cs>^. |
+  \stemUp <d d,>8-.\noBeam \stemDown <fs a d>^. <a d fs>^. <fs a d>^. <a d fs>^. <fs a d>^. |
+  \stemUp <a, a,>8-.\noBeam \stemDown <cs e g>^. <a cs e>^. <a cs e g>^. <bf cs e>^. <cs e g>^. |
   a,4 s bf' |
   % Measures 93-96
   a8\noBeam d^([-> cs)] <e g cs>^.^( bf <e g d'>^.) |
   <a, e' g cs>8\arpeggio a,4. bf4 |
-  s4 <as' cs fs>8-. <fs' cs'>-. <fs cs as>-. <fs cs'>-. |
-  s4 <b, d fs>8-. <d fs b>-. <b d fs>-. <d fs b>-. |
+  s4 <as' cs fs>8^. <fs' cs'>^. <fs cs as>^. <fs cs'>^. |
+  s4 <b, d fs>8^. <d fs b>^. <b d fs>^. <d fs b>^. |
   % Measures 97-100
-  s8 <e g b>8-. <g b g'>-. <e g b>-. <g b g'>-. <e g b>-. |
-  s8 <fs b>8-. <fs b fs'>-. <d fs b>-. <fs b fs'>-. <d fs b>-. |
-  \stemUp g,8-.\noBeam \stemDown <g' b d>-. <b d g>-. <g b d>-. <b d g>-. <g b d>-. |
-  \stemUp d,8-.\noBeam \stemDown <fs' a d>-. <a d fs>-. <fs a d>-. <a d fs>-. <fs a d>-. |
+  s8 <e g b>8^. <g b g'>^. <e g b>^. <g b g'>^. <e g b>^. |
+  s8 <fs b>8^. <fs b fs'>^. <d fs b>^. <fs b fs'>^. <d fs b>^. |
+  \stemUp g,8-.\noBeam \stemDown <g' b d>^. <b d g>^. <g b d>^. <b d g>^. <g b d>^. |
+  \stemUp d,8-.\noBeam \stemDown <fs' a d>^. <a d fs>^. <fs a d>^. <a d fs>^. <fs a d>^. |
   % Measures 101-104
-  \stemUp <a, a,>8-.\noBeam \stemDown <e' a cs>-. <a cs g'>-. <e a cs>-. <a cs g'>-. <e a cs>-. |
-  \stemUp d,8-.^\> \stemDown r8 <d' a' d fs>-.\arpeggio\! <fs a d>-. <a d fs>-. <fs a d>-. |
-  \stemUp d,8-. \stemDown r8 <d' a' d f>-.\arpeggio <f a d>-. <a d f>-. <f a>-. |
-  \stemUp g,,8-. \stemDown r8 <g' d' e bf'>-.\arpeggio <g d' e>-. <d' e bf'>-. <g, d' e>-. |
+  \stemUp <a, a,>8-.\noBeam \stemDown <e' a cs>^. <a cs g'>^. <e a cs>^. <a cs g'>^. <e a cs>^. |
+  \stemUp d,8-.^\> \stemDown r8 <d' a' d fs>^.\arpeggio\! <fs a d>^. <a d fs>^. <fs a d>^. |
+  \stemUp d,8-. \stemDown r8 <d' a' d f>^.\arpeggio <f a d>^. <a d f>^. <f a>^. |
+  \stemUp g,,8-. \stemDown r8 <g' d' e bf'>^.\arpeggio <g d' e>^. <d' e bf'>^. <g, d' e>^. |
   % Measures 105-108
-  \stemUp a,8-. \stemDown r8 <a' e' g cs>-.\arpeggio <a e' g>-. <e' g cs>-. <a, e' g>-. |
+  \stemUp a,8-. \stemDown r8 <a' e' g cs>^.\arpeggio <a e' g>^. <e' g cs>^. <a, e' g>^. |
   s2. |
-  \stemUp d,8-.\noBeam \stemDown <d' fs>-. <fs a>-. <d fs>-. <fs a>-. <d fs>-. |
-  \stemUp d,8-.\noBeam \stemDown <d' g>-. <g bf>-. <d g>-. <g bf>-. <d g>-. |
+  \stemUp d,8-.\noBeam \stemDown <d' fs>^. <fs a>^. <d fs>^. <fs a>^. <d fs>^. |
+  \stemUp d,8-.\noBeam \stemDown <d' g>^. <g bf>^. <d g>^. <g bf>^. <d g>^. |
   % Measures 109-112
-  \stemUp d,8-.\noBeam \stemDown <d' fs>-. <fs a>-. <d fs>-. <fs a>-. <d fs>-. |
-  \stemUp a,8-.\noBeam \stemDown <a' e'>-. <e' g>-. <e a,>-. <e g>-. <e a,>-. |
-  \stemUp d,8-.\noBeam \stemDown <a' d>-. <d fs>-. <a d>-. <d fs>-. <a d>-. |
-  \stemUp d,8-.\noBeam \stemDown <a' d>-.^\markup { \italic smorz. } <d fs>-. <a d>-. <d fs>-. <a d>-. |
+  \stemUp d,8-.\noBeam \stemDown <d' fs>^. <fs a>^. <d fs>^. <fs a>^. <d fs>^. |
+  \stemUp a,8-.\noBeam \stemDown <a' e'>^. <e' g>^. <e a,>^. <e g>^. <e a,>^. |
+  \stemUp d,8-.\noBeam \stemDown <a' d>^. <d fs>^. <a d>^. <d fs>^. <a d>^. |
+  \stemUp d,8-.\noBeam \stemDown <a' d>^.^\markup { \italic smorz. } <d fs>^. <a d>^. <d fs>^. <a d>^. |
   % Measures 113-115
   \stemUp \tuplet 3/2 { d,4^\markup { "  " \dynamic ppp } ( a'8 } \tuplet 3/2 { d a' d }
     \clef treble \tuplet 3/2 { a' d a } \clef bass |
