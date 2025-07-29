@@ -12,5 +12,5 @@ Here is a small collection of sheet music written in [LilyPond](http://lilypond.
 To clone this repository:
 
 ```
-fossil clone https://chiselapp.com/user/bloovis/repository/sheet-music sheet-music.fossil
+fossil clone https://www.bloovis.com/fossil/home/marka/fossils/sheet-music
 ```
