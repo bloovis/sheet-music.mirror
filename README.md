@@ -8,3 +8,9 @@ Here is a small collection of sheet music written in [LilyPond](http://lilypond.
 * *firth* - the piano introduction to "Firth of Fifth", by Genesis, from "Selling England By The Pound"
 * *staendchen* - Liszt/Schubert "Ständchen" (just the piano part, no lyrics, no *ossia piu facile*)
 * *gymnopedie1* - Satie, 1st Gymnopedie
+
+To clone this repository:
+
+```
+fossil clone https://chiselapp.com/user/bloovis/repository/sheet-music sheet-music.fossil
+```
